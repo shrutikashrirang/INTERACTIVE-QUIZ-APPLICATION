@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(250, 255, 240);
+}
+
+.panel {
+    margin-top: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(128, 0, 9);
+}
+
+.question {
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.options {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-right: 75px;
+    margin-top: 8%;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #c24f55;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #c24f4f;
+    background-color: white;
+    border: 1 px solid #c24f4f;
+}
+
+#score {
+    font-size: 30px;
+    color: rgb(79, 47, 70);
+}
